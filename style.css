@@ -1,0 +1,78 @@
+body {
+  font-size: 15pt;
+  background: linear-gradient(violet,black);
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.resultat{
+  position: relative;
+  margin-top: 10vh;;
+  width: 98%;
+  height: 15vh;
+  color: white;
+  font-size: 100px;
+  border-radius: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.resultat #exp{
+  font-family: arial;
+}
+#exp{
+ margin-top: 1vh;
+}
+.numero{
+  margin-top: 3vh;
+  height: 65vh;
+  width: 30vh;
+  border-radius: 10px;
+  justify-content: Center;
+  align-items: center;
+}
+.operateur{
+  margin-top: -65vh;
+  height: 65vh;
+  width: 12vh;
+  border-radius: 1vh;
+  float: right;
+}
+.operateur button{
+  background: palevioletred;
+}
+button{
+  border-radius: 100%;
+  margin-top: 2%;
+  margin-left: 2%;
+  height: 80px;
+  width: 80px;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  border: none;
+  background: violet;
+}
+#reset{
+  background: blueviolet;
+}
+#zero{
+  width: 170px;
+  border-radius: 60%;
+  background: vio;
+}
+.operateur button{
+  margin-top: 5px;
+}
+#reset b{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#para2{
+  background-color: darkviolet
+}
+#para1{
+ background: darkviolet;
+}
